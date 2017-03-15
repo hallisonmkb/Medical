@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BFE17AE-1EF5-4087-8C0E-3E4C2905B149}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UIL</RootNamespace>
+    <AssemblyName>UIL</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_Agenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Agenda.Designer.cs">
+      <DependentUpon>Frm_Agenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CID.Designer.cs">
+      <DependentUpon>Frm_CID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Cidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Cidade.Designer.cs">
+      <DependentUpon>Frm_Cidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Clinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Clinica.Designer.cs">
+      <DependentUpon>Frm_Clinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Evolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Evolucao.Designer.cs">
+      <DependentUpon>Frm_Evolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Inicio.Designer.cs">
+      <DependentUpon>Frm_Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Master.Designer.cs">
+      <DependentUpon>Frm_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Paciente.Designer.cs">
+      <DependentUpon>Frm_Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Proc_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Proc_Paciente.Designer.cs">
+      <DependentUpon>Frm_Proc_Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Usuario.Designer.cs">
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_Agenda.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Agenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CID.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_CID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Cidade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Cidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Clinica.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Clinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Evolucao.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Evolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Inicio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Master.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Master.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Paciente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Proc_Paciente.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Proc_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Usuario.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\agenda_atual.png" />
+    <Content Include="Imagens\agenda_outra.png" />
+    <Content Include="Imagens\agenda_selecionada.png" />
+    <Content Include="Imagens\barra.png" />
+    <Content Include="Imagens\cidade_atual.png" />
+    <Content Include="Imagens\cidade_outra.png" />
+    <Content Include="Imagens\cidade_selecionada.png" />
+    <Content Include="Imagens\cid_atual.png" />
+    <Content Include="Imagens\cid_outra.png" />
+    <Content Include="Imagens\cid_selecionada.png" />
+    <Content Include="Imagens\clinica_atual.png" />
+    <Content Include="Imagens\clinica_outra.png" />
+    <Content Include="Imagens\clinica_selecionada.png" />
+    <Content Include="Imagens\exemplo_atual.png" />
+    <Content Include="Imagens\exemplo_outra.png" />
+    <Content Include="Imagens\exemplo_selecionada.png" />
+    <Content Include="Imagens\inicio_atual.png" />
+    <Content Include="Imagens\inicio_outra.png" />
+    <Content Include="Imagens\inicio_selecionada.png" />
+    <Content Include="Imagens\logo.jpg" />
+    <Content Include="Imagens\paciente_atual.png" />
+    <Content Include="Imagens\paciente_outra.png" />
+    <Content Include="Imagens\paciente_selecionada.png" />
+    <Content Include="Imagens\usuario_atual.png" />
+    <Content Include="Imagens\usuario_outra.png" />
+    <Content Include="Imagens\usuario_selecionada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BO\BO.csproj">
+      <Project>{84AFFE5D-04C0-4955-AE27-8096DE00EEF8}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
